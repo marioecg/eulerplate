@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "clean": "rm -rf public",
-    "build": "webpack --progress --config ./webpack/build.js",
+    "build": "webpack --progress --config ./webpack/production.js",
     "dev": "webpack serve --progress --config ./webpack/development.js",
     "start": "npm run dev"
   },
